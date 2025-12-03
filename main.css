@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Alegreya';
-    src: url('/font/subset-AlegreyaSansSC-Black.woff2') format('woff2'),
-        url('/font/subset-AlegreyaSansSC-Black.woff') format('woff');
+    src: url('./font/subset-AlegreyaSansSC-Black.woff2') format('woff2'),
+        url('./font/subset-AlegreyaSansSC-Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -46,7 +46,7 @@ list-style: none;
 .hero {
     height: 100hv;
     min-height: 650px;
-    background: url(./img/bg/hero.jpg) center center / cover no-repeat;
+    background: url('./img/bg/hero.jpg') center center / cover no-repeat;
     position: relative;
     margin-bottom: 130px;
 }
