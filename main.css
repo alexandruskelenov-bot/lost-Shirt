@@ -195,7 +195,7 @@ color: var(--red);
     opacity: 1;
 }
 .fade-slider__item--style_tshirts{
-    background-image: url('/img/content/hero/slider_pic_1.png');
+    background-image: url('./img/content/hero/slider_pic_1.png');
 }
 
 .fade-slider__item--style_tshirts .fade-slider__text{
@@ -205,7 +205,7 @@ color: var(--red);
 }
 
 .fade-slider__item--style_game{
-    background-image: url('/img/content/hero/slider_pic_2.png');
+    background-image: url('./img/content/hero/slider_pic_2.png');
 }
 
 .fade-slider__item--style_game .fade-slider__text{
@@ -219,7 +219,7 @@ color: var(--red);
 }
 
 .fade-slider__item--style_presents{
-    background-image: url('/img/content/hero/slider_pic_3.png');
+    background-image: url('./img/content/hero/slider_pic_3.png');
 }
 
 .fade-slider__item--style_presents .fade-slider__text{
@@ -431,7 +431,7 @@ min-height: 474px;
 flex: 1;
 overflow: hidden;
 margin-right: 30px;
-background: url(/img/bg/pattern.png) center center /500px;
+background: url('./img/bg/pattern.png') center center /500px;
 position: relative;
 }
 
@@ -480,11 +480,11 @@ position: relative;
 }
 
 .collection__item--type-guys:before{
-    background-image: url(/img/collections/collection_man.png);
+    background-image: url('./img/collections/collection_man.png');
 }
 
 .collection__item--type-girls:before{
-    background-image: url(/img/collections/collection_woman.png);
+    background-image: url('./img/collections/collection_woman.png');
     top:-31%;
     width: 80%;
     left:-25%;
@@ -587,7 +587,7 @@ color: var(--red);
 
 .extras_social{
     height: 100%;
-    background: url(/img/bg/pattern.png) center center /500px;
+    background: url('./img/bg/pattern.png') center center /500px;
     display: flex;
     align-items: center;
     justify-content: center;
